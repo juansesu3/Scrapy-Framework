@@ -1,7 +1,7 @@
 import scrapy
 
 class ArticleSpider(scrapy.Spider):
-	name='article'
+	name = 'articles'
 
 	def start_requests(self):
 		urls = [
